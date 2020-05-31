@@ -1,7 +1,7 @@
 image: archlinux
 
 packages:
-  - janet
+  - janet-lang
 
 sources:
   - https://git.sr.ht/~statianzo/janet-nanoid
