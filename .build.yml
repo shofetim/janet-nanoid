@@ -1,0 +1,12 @@
+image: archlinux
+
+packages:
+  - janet
+
+sources:
+  - https://git.sr.ht/~statianzo/janet-nanoid
+
+tasks:
+  - test: |
+    cd janet-nanoid
+    jpm test
