@@ -9,7 +9,6 @@
   (assert
     (= 10 (length (n/gen :size 10)))
     "generates id of length 10"))
-(pp (n/gen))
 
 (let [results (table)]
   (loop [x :range [0 10_000]]
