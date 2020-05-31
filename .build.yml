@@ -8,5 +8,5 @@ sources:
 
 tasks:
   - test: |
-    cd janet-nanoid
-    jpm test
+      cd janet-nanoid
+      jpm test
