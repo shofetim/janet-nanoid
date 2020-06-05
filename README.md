@@ -1,5 +1,7 @@
 # janet-nanoid
 
+[![builds.sr.ht status](https://builds.sr.ht/~statianzo/janet-nanoid/.build.yml.svg)](https://builds.sr.ht/~statianzo/janet-nanoid/.build.yml?)
+
 nanoid is a library for generating random IDs.
 
 Implementation of [nanoid](https://zelark.github.io/nano-id-cc/) in
