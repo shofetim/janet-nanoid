@@ -1,6 +1,7 @@
 # janet-nanoid
 
 [![builds.sr.ht status](https://builds.sr.ht/~statianzo/janet-nanoid/.build.yml.svg)](https://builds.sr.ht/~statianzo/janet-nanoid/.build.yml?)
+[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
 nanoid is a library for generating random IDs.
 
