@@ -11,7 +11,7 @@ Ported implementation of [nanoid](https://zelark.github.io/nano-id-cc/) in
 # Install
 
 ```
-jpm install git+https://git.sr.ht/~statianzo/janet-nanoid
+jpm install https://git.sr.ht/~statianzo/janet-nanoid
 ```
 
 # Usage

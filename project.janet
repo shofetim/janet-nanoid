@@ -5,7 +5,7 @@
   :license "Unlicense"
   :version "0.1.0"
   :url "https://sr.ht/~statianzo/janet-nanoid"
-  :repo "git+https://git.sr.ht/~/statianzo/janet-nanoid")
+  :repo "https://git.sr.ht/~/statianzo/janet-nanoid")
 
 (declare-source
   :source ["nanoid.janet"])
