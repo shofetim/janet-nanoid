@@ -3,9 +3,9 @@
 [![builds.sr.ht status](https://builds.sr.ht/~statianzo/janet-nanoid/.build.yml.svg)](https://builds.sr.ht/~statianzo/janet-nanoid/.build.yml?)
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
-nanoid is a library for generating random IDs.
+A library for generating random IDs.
 
-Implementation of [nanoid](https://zelark.github.io/nano-id-cc/) in
+Ported implementation of [nanoid](https://zelark.github.io/nano-id-cc/) in
 [Janet](https://janet-lang.org/).
 
 # Install
@@ -26,7 +26,7 @@ secure random bytes.
 ## Options
 
 * `:size` - Length of the output string (default `21`)
-* `:alphabet` - Alphabet of characters to use (default `"_-0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"`)
+* `:alphabet` - Alphabet of characters to use (defaults alphanumeric and `-_`)
 * `:rng` - `math/rng` instance to generate (`gen-non-secure` only)
 
 ## Example
