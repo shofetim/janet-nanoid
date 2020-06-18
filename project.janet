@@ -3,7 +3,7 @@
   :description "A library for generating random IDs"
   :author "Jason Staten"
   :license "Unlicense"
-  :version "0.1.0"
+  :version "0.1.1"
   :url "https://sr.ht/~statianzo/janet-nanoid"
   :repo "https://git.sr.ht/~/statianzo/janet-nanoid")
 
