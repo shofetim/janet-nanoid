@@ -4,8 +4,10 @@
 
 (def- masks [15 31 63 127 255])
 
-(defn gen [&keys {:size size
-                  :alphabet alphabet}] 
+(defn gen
+  "Generate secure random ID. Default size of 21."
+  [&keys {:size size
+          :alphabet alphabet}]
   (default size 21)
   (default alphabet DEFAULT_ALPHABET)
 
@@ -24,9 +26,11 @@
     (string/from-bytes ;result)))
 
 
-(defn gen-non-secure [&keys {:size size
-                             :alphabet alphabet
-                             :rng rng}]
+(defn gen-non-secure
+  "Generate pseudorandom ID. Default size of 21."
+  [&keys {:size size
+          :alphabet alphabet
+          :rng rng}]
   (default size 21)
   (default alphabet DEFAULT_ALPHABET)
   (default rng DEFAULT_RNG)

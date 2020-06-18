@@ -46,3 +46,5 @@ secure random bytes.
 (nanoid/gen-non-secure :size 5)
 # "vWgzu"
 ```
+
+![goatcounter](https://janet-nanoid.goatcounter.com/count?p=/README.md)
